@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(223, 246, 239);
+}
+
+main {
+  display: flex;
+  padding: 4rem;
+  position: relative;
+  top: 5rem;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: rgb(244, 238, 238);
+  row-gap: 2rem;
+  flex-flow: column wrap;
+  justify-self: center;
+  border-radius: 2rem;
+  width: 30%;
+  height: 100%;
+  box-shadow: inset 0.1rem 0.1rem 1rem rgb(63, 63, 63);
+}
+
+main img {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 1rem;
+  order: 0;
+  width: 30rem;
+}
+
+.texto {
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+main a {
+  order: 1;
+  font-size: 3rem;
+  font-weight: 700;
+}
+main a:hover {
+  color: rgb(250, 139, 4);
+}
+main h2 {
+  padding: 0.5rem;
+  order: 2;
+  font-weight: 100;
+}
