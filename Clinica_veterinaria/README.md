@@ -2,4 +2,5 @@
 
 # Sobre o Projeto
 
-Projeto criado durando mini curso da onebitcode
+Projeto criado durante mini  curso da onebitcode
+ 
